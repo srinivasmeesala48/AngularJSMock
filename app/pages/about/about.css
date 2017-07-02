@@ -1,0 +1,22 @@
+.imageClass{
+    height: 60px !important;
+    width: 150px !important;
+}
+
+.categories{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.technologies{
+    margin-left:-310px;
+}
+
+.category-layout{
+    background-color:beige;
+    height: 60px;
+}
+.pdfButton{
+    margin-left:100px
+}

@@ -1,0 +1,19 @@
+<h4>Technologies</h4>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Image</th>
+        <th>Url</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let json of technologyList" (click)="onRowClick(json)">
+        <td>{{json.title}}</td>
+        <td ><img class='imageClass' src={{json.image}}/></td>
+        <td>{{json.url}}</td>
+        <td>{{json.description}}</td>
+      </tr>
+    </tbody>
+  </table>

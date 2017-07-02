@@ -1,0 +1,18 @@
+<div class="category-layout">
+    <div class="row">
+        <div class="col-md-6 col-ld-6">
+            <button (click)="onSelectCompany()" type="button" class="btn btn-primary categories">Companies</button>
+        </div>
+        <div class="col-md-6 col-ld-6">
+            <button (click)="onSelectTechnology()" type="button" class="btn btn-primary categories technologies">Technologies</button>
+        </div>
+    </div>
+    <div *ngIf="isCompanyListVisible">
+        <company-list></company-list>
+    </div>
+    <div *ngIf="isTechnologyListVisible">
+        <technology-list></technology-list>
+    </div>
+</div>
+    
+
